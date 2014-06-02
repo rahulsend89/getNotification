@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE2F608B1937D93C00971739 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F608A1937D93C00971739 /* Cocoa.framework */; };
+		BE2F60951937D93C00971739 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE2F60931937D93C00971739 /* InfoPlist.strings */; };
+		BE2F60971937D93C00971739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F60961937D93C00971739 /* main.m */; };
+		BE2F609B1937D93C00971739 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BE2F60991937D93C00971739 /* Credits.rtf */; };
+		BE2F609E1937D93C00971739 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F609D1937D93C00971739 /* AppDelegate.m */; };
+		BE2F60A11937D93C00971739 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2F609F1937D93C00971739 /* MainMenu.xib */; };
+		BE2F60A31937D93C00971739 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2F60A21937D93C00971739 /* Images.xcassets */; };
+		BE2F60AA1937D93C00971739 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F60A91937D93C00971739 /* XCTest.framework */; };
+		BE2F60AB1937D93C00971739 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F608A1937D93C00971739 /* Cocoa.framework */; };
+		BE2F60B31937D93C00971739 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE2F60B11937D93C00971739 /* InfoPlist.strings */; };
+		BE2F60B51937D93C00971739 /* getNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F60B41937D93C00971739 /* getNotificationTests.m */; };
+		BE2F60D41937DE1A00971739 /* BLBluetoothOBEXSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F60CD1937DE1A00971739 /* BLBluetoothOBEXSession.m */; };
+		BE2F60D51937DE1A00971739 /* BLMASSession.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F60CF1937DE1A00971739 /* BLMASSession.m */; };
+		BE2F60D61937DE1A00971739 /* BLMNSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F60D11937DE1A00971739 /* BLMNSServer.m */; };
+		BE2F60D71937DE1A00971739 /* BLMNSService.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2F60D31937DE1A00971739 /* BLMNSService.m */; };
+		BE2F60D91937E43200971739 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F60D81937E43200971739 /* IOBluetooth.framework */; };
+		BE2F60DB1937E43E00971739 /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F60DA1937E43E00971739 /* IOBluetoothUI.framework */; };
+		BE36B4BA193810FF00BC831E /* PhoneCallMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = BE36B4B8193810FF00BC831E /* PhoneCallMonitor.m */; };
+		BE4993DE193AC6CD002317A8 /* HandsFreeDeviceSDPRecord.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE4993DD193AC6CD002317A8 /* HandsFreeDeviceSDPRecord.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE2F60AC1937D93C00971739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE2F607F1937D93C00971739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE2F60861937D93C00971739;
+			remoteInfo = getNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE2F60871937D93C00971739 /* getNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = getNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2F608A1937D93C00971739 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BE2F608D1937D93C00971739 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BE2F608E1937D93C00971739 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BE2F608F1937D93C00971739 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE2F60921937D93C00971739 /* getNotification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "getNotification-Info.plist"; sourceTree = "<group>"; };
+		BE2F60941937D93C00971739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE2F60961937D93C00971739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE2F60981937D93C00971739 /* getNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "getNotification-Prefix.pch"; sourceTree = "<group>"; };
+		BE2F609A1937D93C00971739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BE2F609C1937D93C00971739 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE2F609D1937D93C00971739 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE2F60A01937D93C00971739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE2F60A21937D93C00971739 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE2F60A81937D93C00971739 /* getNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = getNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2F60A91937D93C00971739 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BE2F60B01937D93C00971739 /* getNotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "getNotificationTests-Info.plist"; sourceTree = "<group>"; };
+		BE2F60B21937D93C00971739 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE2F60B41937D93C00971739 /* getNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = getNotificationTests.m; sourceTree = "<group>"; };
+		BE2F60CC1937DE1A00971739 /* BLBluetoothOBEXSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBluetoothOBEXSession.h; sourceTree = "<group>"; };
+		BE2F60CD1937DE1A00971739 /* BLBluetoothOBEXSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBluetoothOBEXSession.m; sourceTree = "<group>"; };
+		BE2F60CE1937DE1A00971739 /* BLMASSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMASSession.h; sourceTree = "<group>"; };
+		BE2F60CF1937DE1A00971739 /* BLMASSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMASSession.m; sourceTree = "<group>"; };
+		BE2F60D01937DE1A00971739 /* BLMNSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMNSServer.h; sourceTree = "<group>"; };
+		BE2F60D11937DE1A00971739 /* BLMNSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMNSServer.m; sourceTree = "<group>"; };
+		BE2F60D21937DE1A00971739 /* BLMNSService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMNSService.h; sourceTree = "<group>"; };
+		BE2F60D31937DE1A00971739 /* BLMNSService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMNSService.m; sourceTree = "<group>"; };
+		BE2F60D81937E43200971739 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		BE2F60DA1937E43E00971739 /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		BE36B4B7193810FF00BC831E /* PhoneCallMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCallMonitor.h; sourceTree = "<group>"; };
+		BE36B4B8193810FF00BC831E /* PhoneCallMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCallMonitor.m; sourceTree = "<group>"; };
+		BE4993DD193AC6CD002317A8 /* HandsFreeDeviceSDPRecord.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HandsFreeDeviceSDPRecord.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE2F60841937D93C00971739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2F60DB1937E43E00971739 /* IOBluetoothUI.framework in Frameworks */,
+				BE2F60D91937E43200971739 /* IOBluetooth.framework in Frameworks */,
+				BE2F608B1937D93C00971739 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2F60A51937D93C00971739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2F60AB1937D93C00971739 /* Cocoa.framework in Frameworks */,
+				BE2F60AA1937D93C00971739 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE2F607E1937D93C00971739 = {
+			isa = PBXGroup;
+			children = (
+				BE2F60901937D93C00971739 /* getNotification */,
+				BE2F60AE1937D93C00971739 /* getNotificationTests */,
+				BE2F60891937D93C00971739 /* Frameworks */,
+				BE2F60881937D93C00971739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE2F60881937D93C00971739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F60871937D93C00971739 /* getNotification.app */,
+				BE2F60A81937D93C00971739 /* getNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE2F60891937D93C00971739 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F60DA1937E43E00971739 /* IOBluetoothUI.framework */,
+				BE2F60D81937E43200971739 /* IOBluetooth.framework */,
+				BE2F608A1937D93C00971739 /* Cocoa.framework */,
+				BE2F60A91937D93C00971739 /* XCTest.framework */,
+				BE2F608C1937D93C00971739 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE2F608C1937D93C00971739 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F608D1937D93C00971739 /* AppKit.framework */,
+				BE2F608E1937D93C00971739 /* CoreData.framework */,
+				BE2F608F1937D93C00971739 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BE2F60901937D93C00971739 /* getNotification */ = {
+			isa = PBXGroup;
+			children = (
+				BE4993DD193AC6CD002317A8 /* HandsFreeDeviceSDPRecord.plist */,
+				BE36B4B7193810FF00BC831E /* PhoneCallMonitor.h */,
+				BE36B4B8193810FF00BC831E /* PhoneCallMonitor.m */,
+				BE2F60CB1937DE1A00971739 /* src */,
+				BE2F609C1937D93C00971739 /* AppDelegate.h */,
+				BE2F609D1937D93C00971739 /* AppDelegate.m */,
+				BE2F609F1937D93C00971739 /* MainMenu.xib */,
+				BE2F60A21937D93C00971739 /* Images.xcassets */,
+				BE2F60911937D93C00971739 /* Supporting Files */,
+			);
+			path = getNotification;
+			sourceTree = "<group>";
+		};
+		BE2F60911937D93C00971739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F60921937D93C00971739 /* getNotification-Info.plist */,
+				BE2F60931937D93C00971739 /* InfoPlist.strings */,
+				BE2F60961937D93C00971739 /* main.m */,
+				BE2F60981937D93C00971739 /* getNotification-Prefix.pch */,
+				BE2F60991937D93C00971739 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE2F60AE1937D93C00971739 /* getNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F60B41937D93C00971739 /* getNotificationTests.m */,
+				BE2F60AF1937D93C00971739 /* Supporting Files */,
+			);
+			path = getNotificationTests;
+			sourceTree = "<group>";
+		};
+		BE2F60AF1937D93C00971739 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F60B01937D93C00971739 /* getNotificationTests-Info.plist */,
+				BE2F60B11937D93C00971739 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE2F60CB1937DE1A00971739 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				BE2F60CC1937DE1A00971739 /* BLBluetoothOBEXSession.h */,
+				BE2F60CD1937DE1A00971739 /* BLBluetoothOBEXSession.m */,
+				BE2F60CE1937DE1A00971739 /* BLMASSession.h */,
+				BE2F60CF1937DE1A00971739 /* BLMASSession.m */,
+				BE2F60D01937DE1A00971739 /* BLMNSServer.h */,
+				BE2F60D11937DE1A00971739 /* BLMNSServer.m */,
+				BE2F60D21937DE1A00971739 /* BLMNSService.h */,
+				BE2F60D31937DE1A00971739 /* BLMNSService.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE2F60861937D93C00971739 /* getNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2F60B81937D93C00971739 /* Build configuration list for PBXNativeTarget "getNotification" */;
+			buildPhases = (
+				BE2F60831937D93C00971739 /* Sources */,
+				BE2F60841937D93C00971739 /* Frameworks */,
+				BE2F60851937D93C00971739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getNotification;
+			productName = getNotification;
+			productReference = BE2F60871937D93C00971739 /* getNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE2F60A71937D93C00971739 /* getNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE2F60BB1937D93C00971739 /* Build configuration list for PBXNativeTarget "getNotificationTests" */;
+			buildPhases = (
+				BE2F60A41937D93C00971739 /* Sources */,
+				BE2F60A51937D93C00971739 /* Frameworks */,
+				BE2F60A61937D93C00971739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE2F60AD1937D93C00971739 /* PBXTargetDependency */,
+			);
+			name = getNotificationTests;
+			productName = getNotificationTests;
+			productReference = BE2F60A81937D93C00971739 /* getNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE2F607F1937D93C00971739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rahul Malik";
+				TargetAttributes = {
+					BE2F60A71937D93C00971739 = {
+						TestTargetID = BE2F60861937D93C00971739;
+					};
+				};
+			};
+			buildConfigurationList = BE2F60821937D93C00971739 /* Build configuration list for PBXProject "getNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE2F607E1937D93C00971739;
+			productRefGroup = BE2F60881937D93C00971739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE2F60861937D93C00971739 /* getNotification */,
+				BE2F60A71937D93C00971739 /* getNotificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE2F60851937D93C00971739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2F60951937D93C00971739 /* InfoPlist.strings in Resources */,
+				BE2F60A31937D93C00971739 /* Images.xcassets in Resources */,
+				BE2F609B1937D93C00971739 /* Credits.rtf in Resources */,
+				BE2F60A11937D93C00971739 /* MainMenu.xib in Resources */,
+				BE4993DE193AC6CD002317A8 /* HandsFreeDeviceSDPRecord.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2F60A61937D93C00971739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2F60B31937D93C00971739 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE2F60831937D93C00971739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2F60D51937DE1A00971739 /* BLMASSession.m in Sources */,
+				BE2F609E1937D93C00971739 /* AppDelegate.m in Sources */,
+				BE2F60D71937DE1A00971739 /* BLMNSService.m in Sources */,
+				BE2F60D61937DE1A00971739 /* BLMNSServer.m in Sources */,
+				BE2F60971937D93C00971739 /* main.m in Sources */,
+				BE36B4BA193810FF00BC831E /* PhoneCallMonitor.m in Sources */,
+				BE2F60D41937DE1A00971739 /* BLBluetoothOBEXSession.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE2F60A41937D93C00971739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2F60B51937D93C00971739 /* getNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE2F60AD1937D93C00971739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE2F60861937D93C00971739 /* getNotification */;
+			targetProxy = BE2F60AC1937D93C00971739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE2F60931937D93C00971739 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2F60941937D93C00971739 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE2F60991937D93C00971739 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2F609A1937D93C00971739 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BE2F609F1937D93C00971739 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2F60A01937D93C00971739 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		BE2F60B11937D93C00971739 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE2F60B21937D93C00971739 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE2F60B61937D93C00971739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE2F60B71937D93C00971739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE2F60B91937D93C00971739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getNotification/getNotification-Prefix.pch";
+				INFOPLIST_FILE = "getNotification/getNotification-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE2F60BA1937D93C00971739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN__ARC_BRIDGE_CAST_NONARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getNotification/getNotification-Prefix.pch";
+				INFOPLIST_FILE = "getNotification/getNotification-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BE2F60BC1937D93C00971739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/getNotification.app/Contents/MacOS/getNotification";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getNotification/getNotification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "getNotificationTests/getNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BE2F60BD1937D93C00971739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/getNotification.app/Contents/MacOS/getNotification";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "getNotification/getNotification-Prefix.pch";
+				INFOPLIST_FILE = "getNotificationTests/getNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE2F60821937D93C00971739 /* Build configuration list for PBXProject "getNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2F60B61937D93C00971739 /* Debug */,
+				BE2F60B71937D93C00971739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2F60B81937D93C00971739 /* Build configuration list for PBXNativeTarget "getNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2F60B91937D93C00971739 /* Debug */,
+				BE2F60BA1937D93C00971739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2F60BB1937D93C00971739 /* Build configuration list for PBXNativeTarget "getNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE2F60BC1937D93C00971739 /* Debug */,
+				BE2F60BD1937D93C00971739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE2F607F1937D93C00971739 /* Project object */;
+}
